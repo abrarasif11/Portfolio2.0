@@ -1,4 +1,4 @@
-<div align="center">
+<!-- <div align="center">
   <br />
     <a href="https://www.youtube.com/watch?v=E-fdPfRxkzQ" target="_blank">
       <img src="public/images/readme.png" alt="Project Banner">
@@ -139,4 +139,4 @@ detailed explanations, cool features, and exercises to boost your skills. Give i
 
 <a href="https://beta.jsmastery.pro/" target="_blank">
   <img src="public/images/readme-bottom.png" alt="Project Banner">
-</a>
+</a> -->
