@@ -49,16 +49,19 @@ const AppShowcase = () => {
         <div className="showcaselayout">
           <div ref={rydeRef} className="first-project-wrapper">
             <div className="image-wrapper">
-              <img src="/images/project1.png" alt="Ryde App Interface" />
+              <img
+                src="/images/Screenshot 2026-01-30 170043.png"
+                alt="Ryde App Interface"
+              />
             </div>
             <div className="text-content">
-              <h2>
-                On-Demand Rides Made Simple with a Powerful, User-Friendly App
-                called Ryde
-              </h2>
+              <h2>PotheGo – AI Driven Smart Parcel Management System</h2>
               <p className="text-white-50 md:text-xl">
-                An app built with React Native, Expo, & TailwindCSS for a fast,
-                user-friendly experience.
+                PotheGo is an intelligent parcel booking, tracking and delivery
+                platform that connects individuals and businesses across all 64
+                districts of Bangladesh. With AI-driven route optimization,
+                real-time tracking, and predictive delivery time estimation,
+                PotheGo ensures safe, fast and reliable parcel delivery.
               </p>
             </div>
           </div>
