@@ -49,10 +49,7 @@ const AppShowcase = () => {
         <div className="showcaselayout">
           <div ref={rydeRef} className="first-project-wrapper">
             <div className="image-wrapper">
-              <img
-                src="/images/Screenshot 2026-01-30 170043.png"
-                alt="Ryde App Interface"
-              />
+              <img src="/images/mockuper.png" alt="Ryde App Interface" />
             </div>
             <div className="text-content">
               <h2>PotheGo – AI Driven Smart Parcel Management System</h2>
