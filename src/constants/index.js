@@ -204,11 +204,12 @@ const expLogos = [
 
 const testimonials = [
   {
-    name: "Esther Howard",
-    mentions: "@estherhoward",
+    name: "Arbin Zaman",
+    mentions: "@Arbin Zaman",
+    company: "Software Engineer of Zyxora Inc.",
     review:
-      "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
-    imgPath: "/images/client1.png",
+      "Asif is a solid Full Stack Developer with a strong grasp of modern web technologies. He moves fast, writes clean code and consistently delivers practical, scalable solutions. His problem-solving mindset and ownership over features make him a great fit for fast-moving product teams.",
+    imgPath: "/images/arbin.jpg",
   },
   {
     name: "Wade Warren",

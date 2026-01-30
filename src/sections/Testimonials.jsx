@@ -16,11 +16,16 @@ const Testimonials = () => {
             <GlowCard card={testimonial} key={index} index={index}>
               <div className="flex items-center gap-3">
                 <div>
-                  <img src={testimonial.imgPath} alt="" />
+                  <img
+                    alt=""
+                    className="w-18 h-18 rounded-full  ring-offset-4 "
+                    src={testimonial.imgPath}
+                  />
                 </div>
                 <div>
                   <p className="font-bold">{testimonial.name}</p>
                   <p className="text-white-50">{testimonial.mentions}</p>
+                  <p className="text-white-50">{testimonial.company}</p>
                 </div>
               </div>
             </GlowCard>
