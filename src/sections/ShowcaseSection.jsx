@@ -71,7 +71,16 @@ const AppShowcase = () => {
                   alt="Library Management Platform"
                 />
               </div>
-              <h2>Budget Buddy - </h2>
+              <h2>
+                Budget Buddy - AI Driven Personal Finance Management System with
+                Real Time Analysis and Suggestions
+              </h2>
+              <p className="text-white-50 md:text-xl">
+                Budget Buddy is an AI-driven personal finance management system
+                that tracks income and expenses, analyzes spending in real time
+                and provides smart, personalized budgeting and savings
+                suggestions to help users make better financial decisions.
+              </p>
             </div>
 
             <div className="project" ref={ycDirectoryRef}>
@@ -81,7 +90,12 @@ const AppShowcase = () => {
                   alt="YC Directory App"
                 />
               </div>
-              <h2>YC Directory - A Startup Showcase App</h2>
+              <h2>Cine Fix - A Online Movie and TV Shows Website</h2>
+              <p className="text-white-50 md:text-xl">
+                An online movie and TV shows website that allows users to
+                browse, search and discover movies and series with detailed
+                information, ratings and an intuitive, user-friendly interface.
+              </p>
             </div>
           </div>
         </div>
