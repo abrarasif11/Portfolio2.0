@@ -212,11 +212,12 @@ const testimonials = [
     imgPath: "/images/arbin.jpg",
   },
   {
-    name: "Wade Warren",
-    mentions: "@wadewarren",
+    name: "Yasir Omar Fahim",
+    mentions: "@Yasir Omar Fahim",
+    company: "Jr. Software Engineer of AIO Tech Solutions.",
     review:
-      "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
-    imgPath: "/images/client3.png",
+      "His frontend logic and implementation quality helped us launch the CRM module ahead of schedule.",
+    imgPath: "/images/yasir.jpg",
   },
   {
     name: "Guy Hawkins",
