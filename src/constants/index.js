@@ -149,10 +149,10 @@ const expCards = [
   {
     review:
       "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-    imgPath: "/images/exp1.png",
-    logoPath: "/images/logo1.png",
-    title: "Frontend Developer",
-    date: "January 2023 - Present",
+    imgPath: "/images/foodpanda.png",
+    logoPath: "/images/foodpanda.png",
+    title: "Partner Service Agent",
+    date: "November 2023 - Present",
     responsibilities: [
       "Developed and maintained user-facing features for the Hostinger website.",
       "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
@@ -170,19 +170,6 @@ const expCards = [
       "Led the development of Docker's web applications, focusing on scalability.",
       "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
       "Contributed to open-source projects that were used with the Docker ecosystem.",
-    ],
-  },
-  {
-    review:
-      "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-    imgPath: "/images/exp3.png",
-    logoPath: "/images/logo3.png",
-    title: "React Native Developer",
-    date: "March 2019 - May 2020",
-    responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
     ],
   },
 ];
@@ -208,7 +195,7 @@ const testimonials = [
     mentions: "@Arbin Zaman",
     company: "Software Engineer of Zyxora Inc.",
     review:
-      "Asif is a solid Full Stack Developer with a strong grasp of modern web technologies. He moves fast, writes clean code and consistently delivers practical, scalable solutions. His problem-solving mindset and ownership over features make him a great fit for fast-moving product teams.",
+      "Asif is a fast, reliable Full Stack Developer who delivers clean, scalable solutions for product teams.",
     imgPath: "/images/arbin.jpg",
   },
   {
@@ -220,32 +207,12 @@ const testimonials = [
     imgPath: "/images/yasir.jpg",
   },
   {
-    name: "Guy Hawkins",
-    mentions: "@guyhawkins",
+    name: "Pranta Nayan",
+    mentions: "@Pranto Nayon",
+    company: "Jr. Software Engineer of Truck Lagbe.",
     review:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    imgPath: "/images/client2.png",
-  },
-  {
-    name: "Marvin McKinney",
-    mentions: "@marvinmckinney",
-    review:
-      "Adrian was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
-    imgPath: "/images/client5.png",
-  },
-  {
-    name: "Floyd Miles",
-    mentions: "@floydmiles",
-    review:
-      "Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
-    imgPath: "/images/client4.png",
-  },
-  {
-    name: "Albert Flores",
-    mentions: "@albertflores",
-    review:
-      "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
-    imgPath: "/images/client6.png",
+      "He reliably completes projects within deadlines, even in high-pressure, fast-paced environments.",
+    imgPath: "/images/pranto.jpg",
   },
 ];
 
