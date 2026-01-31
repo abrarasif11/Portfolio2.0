@@ -220,20 +220,24 @@ const testimonials = [
 
 const socialImgs = [
   {
+    name: "github",
+    imgPath: "/images/GitHub-Icon-White-Logo.wine.png",
+    url: "https://github.com/abrarasif11",
+  },
+  {
     name: "insta",
     imgPath: "/images/insta.png",
+    url: "https://www.instagram.com/ig_reznov_?fbclid=IwY2xjawPqbt1leHRuA2FlbQIxMABicmlkETFJZE5hSkJFR3VhSG9KSlUyc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHkrMg8XMxlt47n58BFPfVOfPpsRxIQXhvESj1zQ9SY4EdvcA60GZqg2pPbJb_aem_IvarkpVglBEwyrDC-adO7Q",
   },
   {
     name: "fb",
     imgPath: "/images/fb.png",
-  },
-  {
-    name: "x",
-    imgPath: "/images/x.png",
+    url: "https://www.facebook.com/md.fahim.abrar.asif/",
   },
   {
     name: "linkedin",
     imgPath: "/images/linkedin.png",
+    url: "https://www.linkedin.com/in/fahim-abrar-asif-2601a6244/",
   },
 ];
 
