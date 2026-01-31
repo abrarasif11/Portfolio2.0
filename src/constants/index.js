@@ -155,14 +155,14 @@ const expCards = [
     title: "Partner Service Agent",
     date: "November 2023 - Present",
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
+      "Resolved vendor queries by providing solutions according to SOP.",
+      "Handled and closed cases involving vendors.",
+      "Coordinated with vendors and riders to resolve delivery, order and other vendor facing issues quickly.",
     ],
   },
   {
     review:
-      "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
+      "He contributed significantly to improving the frontend of our application, delivering clean and user-friendly interfaces. Although he occasionally works at a slower pace, the overall quality of his work and performance remains strong.",
     imgPath: "/images/cac.jpg",
     companyName: "Cool As Code",
     logoPath: "/images/cac.jpg",
