@@ -1,8 +1,6 @@
-<!-- <div align="center">
+<div align="center">
   <br />
-    <a href="https://www.youtube.com/watch?v=E-fdPfRxkzQ" target="_blank">
       <img src="public/images/readme.png" alt="Project Banner">
-    </a>
   <br />
 
   <div>
@@ -120,7 +118,6 @@ npm run dev
 
 Open [http://localhost:5173](http://localhost:5173/) in your browser to view the project.
 
-
 ## <a name="links">🔗 Assets and Snippets</a>
 
 Assets and snippets used in the project can be found in the **[video kit](https://jsm.dev/pfolio25-kit)**.
@@ -128,7 +125,6 @@ Assets and snippets used in the project can be found in the **[video kit](https:
 <a href="https://jsm.dev/pfolio25-kit" target="_blank">
   <img src="public/images/readme-video-kit.png" alt="Video Kit Banner">
 </a>
-
 
 ## <a name="more">🚀 More</a>
 
@@ -139,4 +135,4 @@ detailed explanations, cool features, and exercises to boost your skills. Give i
 
 <a href="https://beta.jsmastery.pro/" target="_blank">
   <img src="public/images/readme-bottom.png" alt="Project Banner">
-</a> -->
+</a>

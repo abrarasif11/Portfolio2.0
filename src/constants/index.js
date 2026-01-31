@@ -235,6 +235,11 @@ const socialImgs = [
     url: "https://www.facebook.com/md.fahim.abrar.asif/",
   },
   {
+    name: "x",
+    imgPath: "/images/x.png",
+    url: "https://x.com/FahimAbrarAsif1",
+  },
+  {
     name: "linkedin",
     imgPath: "/images/linkedin.png",
     url: "https://www.linkedin.com/in/fahim-abrar-asif-2601a6244/",
