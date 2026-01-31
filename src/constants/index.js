@@ -148,8 +148,9 @@ const techStackIcons = [
 const expCards = [
   {
     review:
-      "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
+      "Asif consistently follows standard operating procedures (SOPs) while providing services to vendors and continuously works to improve his performance on a daily basis.",
     imgPath: "/images/foodpanda.png",
+    companyName: "FoodPanda",
     logoPath: "/images/foodpanda.png",
     title: "Partner Service Agent",
     date: "November 2023 - Present",
@@ -162,14 +163,15 @@ const expCards = [
   {
     review:
       "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-    imgPath: "/images/exp2.png",
-    logoPath: "/images/logo2.png",
-    title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
+    imgPath: "/images/cac.jpg",
+    companyName: "Cool As Code",
+    logoPath: "/images/cac.jpg",
+    title: "Front-End Developer (Internship)",
+    date: "January 2023 - March 2023",
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
+      "Contributed to the development of a Engine Expert.",
+      "Improved user experience (UX) by designing and implementing responsive web interfaces.",
+      "Collaborated with team members to design and implement web applications.",
     ],
   },
 ];
