@@ -60,6 +60,16 @@ const AppShowcase = () => {
                 real-time tracking, and predictive delivery time estimation,
                 PotheGo ensures safe, fast and reliable parcel delivery.
               </p>
+
+              {/* GitHub Button */}
+              <a
+                href="https://github.com/yourusername/your-repo" // replace with your GitHub repo
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-4 inline-block bg-gray-800 text-white px-5 py-2 rounded-lg hover:bg-gray-700 transition"
+              >
+                View on GitHub
+              </a>
             </div>
           </div>
 
