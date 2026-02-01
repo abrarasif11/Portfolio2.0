@@ -2,6 +2,7 @@ import { useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
+import { FaGithub } from "react-icons/fa";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -61,13 +62,14 @@ const AppShowcase = () => {
                 PotheGo ensures safe, fast and reliable parcel delivery.
               </p>
 
-              {/* GitHub Button */}
+              {/* GitHub Button with Icon */}
               <a
-                href="https://github.com/yourusername/your-repo" // replace with your GitHub repo
+                href="https://github.com/abrarasif11/PotheGo---Client-Site"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-4 inline-block bg-gray-800 text-white px-5 py-2 rounded-lg hover:bg-gray-700 transition"
+                className="mt-4 inline-flex items-center gap-2 bg-gray-800 text-white px-5 py-2 rounded-lg hover:bg-gray-700 transition"
               >
+                <FaGithub size={20} />
                 View on GitHub
               </a>
             </div>
