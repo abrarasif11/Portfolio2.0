@@ -2,7 +2,7 @@ import { useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
-import { FaGithub } from "react-icons/fa";
+import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -72,6 +72,17 @@ const AppShowcase = () => {
                 <FaGithub size={20} />
                 View on GitHub
               </a>
+
+              {/* Live Demo Button */}
+              <a
+                href="https://pothego-fe657.web.app/" // replace with your live site URL
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 ml-2 bg-[#DAECFE] text-black px-5 py-2 rounded-lg hover:bg-[#2D2D37] hover:text-[#DAECFE] transition"
+              >
+                <FaExternalLinkAlt size={18} />
+                Live Demo
+              </a>
             </div>
           </div>
 
@@ -93,6 +104,27 @@ const AppShowcase = () => {
                 and provides smart, personalized budgeting and savings
                 suggestions to help users make better financial decisions.
               </p>
+              {/* GitHub Button with Icon */}
+              <a
+                href="https://github.com/abrarasif11/PotheGo---Client-Site"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-4 inline-flex items-center gap-2 bg-gray-800 text-white px-5 py-2 rounded-lg hover:bg-gray-700 transition"
+              >
+                <FaGithub size={20} />
+                View on GitHub
+              </a>
+
+              {/* Live Demo Button */}
+              <a
+                href="https://pothego-fe657.web.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 ml-2 bg-[#DAECFE] text-black px-5 py-2 rounded-lg hover:bg-[#2D2D37] hover:text-[#DAECFE] transition"
+              >
+                <FaExternalLinkAlt size={18} />
+                Live Demo
+              </a>
             </div>
 
             <div className="project" ref={ycDirectoryRef}>
@@ -108,6 +140,27 @@ const AppShowcase = () => {
                 browse, search and discover movies and series with detailed
                 information, ratings and an intuitive, user-friendly interface.
               </p>
+              {/* GitHub Button with Icon */}
+              <a
+                href="https://github.com/abrarasif11/PotheGo---Client-Site"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-4 inline-flex items-center gap-2 bg-gray-800 text-white px-5 py-2 rounded-lg hover:bg-gray-700 transition"
+              >
+                <FaGithub size={20} />
+                View on GitHub
+              </a>
+
+              {/* Live Demo Button */}
+              <a
+                href="https://pothego-fe657.web.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 ml-2 bg-[#DAECFE] text-black px-5 py-2 rounded-lg hover:bg-[#2D2D37] hover:text-[#DAECFE] transition"
+              >
+                <FaExternalLinkAlt size={18} />
+                Live Demo
+              </a>
             </div>
           </div>
         </div>
