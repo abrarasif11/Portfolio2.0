@@ -106,7 +106,7 @@ const AppShowcase = () => {
               </p>
               {/* GitHub Button with Icon */}
               <a
-                href="https://github.com/abrarasif11/PotheGo---Client-Site"
+                href="https://github.com/abrarasif11/finance-management-system-frontend-capstone"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-4 inline-flex items-center gap-2 bg-gray-800 text-white px-5 py-2 rounded-lg hover:bg-gray-700 transition"
@@ -117,7 +117,7 @@ const AppShowcase = () => {
 
               {/* Live Demo Button */}
               <a
-                href="https://pothego-fe657.web.app/"
+                href="https://budgetbudddy.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 ml-2 bg-[#DAECFE] text-black px-5 py-2 rounded-lg hover:bg-[#2D2D37] hover:text-[#DAECFE] transition"
@@ -142,7 +142,7 @@ const AppShowcase = () => {
               </p>
               {/* GitHub Button with Icon */}
               <a
-                href="https://github.com/abrarasif11/PotheGo---Client-Site"
+                href="https://github.com/abrarasif11/cinefix"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-4 inline-flex items-center gap-2 bg-gray-800 text-white px-5 py-2 rounded-lg hover:bg-gray-700 transition"
@@ -153,7 +153,7 @@ const AppShowcase = () => {
 
               {/* Live Demo Button */}
               <a
-                href="https://pothego-fe657.web.app/"
+                href="https://cinefixx.netlify.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 ml-2 bg-[#DAECFE] text-black px-5 py-2 rounded-lg hover:bg-[#2D2D37] hover:text-[#DAECFE] transition"
