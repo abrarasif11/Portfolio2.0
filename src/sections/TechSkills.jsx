@@ -1,6 +1,5 @@
 import React from "react";
 import TitleHeader from "../components/TitleHeader";
-
 import logo1 from "../../public/images/HTML5_badge.png";
 import logo2 from "../../public/images/css3_badge.png";
 import logo3 from "../../public/images/javascript-vector-logo-yellow-png-transparent-javascript-vector-12.png";
@@ -11,8 +10,8 @@ import logo7 from "../../public/images/nodejs-logo-FBE122E377-seeklogo.com.png";
 import logo8 from "../../public/images/MongoDB_logo_01.png";
 import logo9 from "../../public/images/firebase-logo-png-firebase-logo-png-transparent-amp-svg-vector-pluspng-2400x3291.png";
 import logo10 from "../../public/images/Logo_PostgreSQL.png";
-import logo11 from "../../public/images/prisma-logo-png_seeklogo-349466.png";
-import logo12 from "../../public/images/git-logo-png_seeklogo-297887.png";
+import logo11 from "../../public/images/prisma.png";
+import logo12 from "../../public/images/git.png";
 
 const skills = [
   logo1,
@@ -31,7 +30,10 @@ const skills = [
 
 const TechSkill = () => {
   return (
-    <div className="px-4 py-16 mb-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+    <div
+      id="skills"
+      className="px-4 py-16 mb-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20"
+    >
       {/* Header */}
       <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
         <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight sm:text-4xl md:mx-auto">
