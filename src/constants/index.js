@@ -12,6 +12,10 @@ const navLinks = [
     link: "#skills",
   },
   {
+    name: "Certifications",
+    link: "#certifications",
+  },
+  {
     name: "Testimonials",
     link: "#testimonials",
   },
