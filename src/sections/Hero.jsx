@@ -50,7 +50,7 @@ const Hero = () => {
               <h1>with Clean & Scalable Code</h1>
             </div>
 
-            <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
+            <p className="text-white-50 text-sm sm:text-base md:text-lg lg:text-xl relative z-10 pointer-events-none">
               Hi, I’m Fahim Abrar Asif, a full-stack developer based in
               Bangladesh with a passion for code.
             </p>

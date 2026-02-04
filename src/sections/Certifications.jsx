@@ -1,5 +1,6 @@
 import React from "react";
 import TitleHeader from "../components/TitleHeader";
+import GlowCard from "../components/GlowCard"; // Import your GlowCard
 
 const certifications = [
   {
@@ -12,7 +13,7 @@ const certifications = [
     description:
       "Participated in a competitive programming contest organized by the UITS IT Club, focusing on problem solving, algorithmic thinking and real time coding challenges. Collaborated under pressure to develop efficient solutions and strengthen logical reasoning skills.",
     tags: [
-      "##ProgrammingContest",
+      "#ProgrammingContest",
       "#CompetitiveProgramming",
       "#ProblemSolving",
       "UITS",
@@ -44,74 +45,65 @@ const certifications = [
 
 const Certifications = () => {
   return (
-    <section className="px-4 sm:px-6 lg:px-10 py-10">
+    <section className="px-4 sm:px-6 lg:px-10">
       <TitleHeader
         title="Certifications & Achievements"
         sub="🏆 Professional certifications and key accomplishments"
       />
 
-      <div className="grid gap-8 mt-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-        {certifications.map((cert) => (
-          <motion.div
-            key={cert.id}
-            whileHover={{ scale: 1.03, rotateY: 5 }}
-            whileTap={{ scale: 0.97, rotateY: -5 }}
-            className="relative rounded-2xl overflow-hidden shadow-2xl transition-all duration-500 hover:shadow-2xl"
-            style={{
-              backgroundColor: "#0E0E10",
-              color: "#E2EDF7",
-              perspective: 1000,
-            }}
-          >
-            {/* Certificate Image */}
-            <div className="w-full h-56 sm:h-60 md:h-64 lg:h-64 flex items-center justify-center overflow-hidden">
-              <motion.img
-                src={cert.certificateImg}
-                alt={cert.title}
-                className="max-h-full max-w-full object-contain p-4 rounded-xl"
-                whileHover={{ scale: 1.1 }}
-                transition={{ duration: 0.5 }}
-              />
-            </div>
-
-            {/* Content */}
-            <div className="p-5 space-y-4">
-              {/* Company + Logo */}
-              <div className="flex items-center gap-3">
+      {/* Responsive Grid */}
+      <div className="grid gap-6 mt-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        {certifications.map((cert, index) => (
+          <GlowCard key={cert.id} card={cert} index={index}>
+            <div
+              className="rounded-2xl overflow-hidden shadow-lg transition-all duration-300"
+              style={{ backgroundColor: "#0E0E10", color: "#E2EDF7" }}
+            >
+              {/* Certificate Image Wrapper */}
+              <div className="w-full h-56 sm:h-60 md:h-64 lg:h-64 flex items-center justify-center">
                 <img
-                  src={cert.companyLogo}
-                  alt={cert.company}
-                  className="w-12 h-12 object-contain bg-white rounded-full p-1"
+                  src={cert.certificateImg}
+                  alt={cert.title}
+                  className="max-h-full max-w-full object-contain p-4"
                 />
-                <div>
-                  <h3 className="text-lg font-semibold">{cert.title}</h3>
-                  <p className="text-sm opacity-70">
-                    {cert.company} • {cert.date}
-                  </p>
+              </div>
+
+              {/* Content */}
+              <div className="p-5 space-y-4">
+                {/* Company + Logo */}
+                <div className="flex items-center gap-3">
+                  <img
+                    src={cert.companyLogo}
+                    alt={cert.company}
+                    className="w-10 h-10 object-contain bg-white rounded-full p-1"
+                  />
+                  <div>
+                    <h3 className="text-lg font-semibold">{cert.title}</h3>
+                    <p className="text-sm opacity-70">
+                      {cert.company} • {cert.date}
+                    </p>
+                  </div>
+                </div>
+
+                {/* Description */}
+                <p className="text-sm leading-relaxed opacity-90">
+                  {cert.description}
+                </p>
+
+                {/* Tags */}
+                <div className="flex flex-wrap gap-2 pt-2">
+                  {cert.tags.map((tag, idx) => (
+                    <span
+                      key={idx}
+                      className="text-xs px-3 py-1 rounded-full border border-[#E2EDF7]/20"
+                    >
+                      {tag}
+                    </span>
+                  ))}
                 </div>
               </div>
-
-              {/* Description */}
-              <p className="text-sm leading-relaxed opacity-90">
-                {cert.description}
-              </p>
-
-              {/* Tags */}
-              <div className="flex flex-wrap gap-2 pt-2">
-                {cert.tags.map((tag, index) => (
-                  <span
-                    key={index}
-                    className="text-xs px-3 py-1 rounded-full border border-[#E2EDF7]/30 hover:bg-[#E2EDF7]/10 transition-colors cursor-pointer"
-                  >
-                    {tag}
-                  </span>
-                ))}
-              </div>
             </div>
-
-            {/* Side Hover Effect */}
-            <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-[#0E0E10] to-[#1A1A1F] opacity-0 hover:opacity-20 transition-opacity rounded-2xl pointer-events-none" />
-          </motion.div>
+          </GlowCard>
         ))}
       </div>
     </section>
