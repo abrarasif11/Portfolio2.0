@@ -1,100 +1,101 @@
 import React from "react";
 import TitleHeader from "../components/TitleHeader";
 
-const certificationsData = [
+const certifications = [
   {
     id: 1,
-    title: "GP Accelerator Idea Design Bootcamp",
-    org: "Grameenphone Ltd. • June 2025",
+    title: "UITS Victory Day Programming Contest",
+    company: "UITS IT Club",
+    date: "December 2021",
+    certificateImg: "/images/certificate1.jpg",
+    companyLogo: "/images/images.png",
     description:
-      "Selected among 450+ teams across Bangladesh for the Grameenphone Accelerator Idea Design Bootcamp. Collaborated with mentors and industry leaders to refine startup strategies and accelerate prototype development.",
-    coverImage: "/images/certificate1.jpg", // BIG image
-    logo: "/images/gp-logo.png", // small logo
-    tags: ["#GPAccelerator", "#IdeaDesignBootcamp", "#Entrepreneurship"],
+      "Advanced frontend concepts including React architecture, responsive UI and performance optimization.",
+    tags: ["#React", "#Frontend", "#UI"],
   },
   {
     id: 2,
-    title: "Nominated At APICTA 2025 in Taiwan",
-    org: "Asia Pacific ICT Alliance • November 2025",
+    title: "Full Stack Web Development",
+    company: "Coursera",
+    date: "Jan 2025",
+    certificateImg: "/images/certificate3.png",
+    companyLogo: "/images/images.png",
     description:
-      "Nominated to represent Bangladesh at APICTA 2025 — recognizing innovation and digital impact for empowering SMEs.",
-    coverImage: "/images/certificate3.png",
-    logo: "/images/apicta.png",
-    tags: ["#APICTA2025", "#GlobalStage", "#Innovation"],
+      "Hands-on full stack development using Node.js, REST APIs, and modern web stacks.",
+    tags: ["#FullStack", "#NodeJS", "#API"],
   },
   {
     id: 3,
-    title: "Firebase & Cloud Deployment Certification",
-    org: "Google Firebase",
+    title: "JavaScript Advanced Concepts",
+    company: "Udemy",
+    date: "Aug 2024",
+    certificateImg: "/images/certificate2.png",
+    companyLogo: "/images/images.png",
     description:
-      "Certified in deploying scalable applications using Firebase Authentication, Hosting, Firestore, and Cloud Functions.",
-    coverImage: "/images/firebase-cover.jpg",
-    logo: "/images/firebase.png",
-    tags: ["#Firebase", "#Cloud", "#Deployment"],
+      "Deep dive into JavaScript fundamentals, async patterns, closures and real-world problem solving.",
+    tags: ["#JavaScript", "#ES6", "#Async"],
   },
 ];
 
 const Certifications = () => {
   return (
-    <section className="px-4 sm:px-6 md:px-10 lg:px-16 py-10">
+    <section className="px-4 sm:px-6 lg:px-10">
       <TitleHeader
         title="Certifications & Achievements"
         sub="🏆 Professional certifications and key accomplishments"
       />
 
-      <div className="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {certificationsData.map((item) => (
+      {/* Responsive Grid */}
+      <div className="grid gap-6 mt-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        {certifications.map((cert) => (
           <div
-            key={item.id}
-            className="rounded-3xl overflow-hidden bg-[#0b0f14] border border-cyan-500/30
-                       hover:shadow-cyan-500/30 hover:shadow-xl transition-all duration-300"
+            key={cert.id}
+            className="rounded-2xl overflow-hidden shadow-lg transition-all duration-300 hover:scale-[1.02]"
+            style={{ backgroundColor: "#0E0E10", color: "#E2EDF7" }}
           >
-            {/* BIG IMAGE */}
-            <div className="relative h-48 sm:h-56 md:h-60">
+            {/* Certificate Image Wrapper */}
+            <div className="w-full h-56 sm:h-60 md:h-64 lg:h-64  flex items-center justify-center">
               <img
-                src={item.coverImage}
-                alt={item.title}
-                className="w-full h-full object-cover"
+                src={cert.certificateImg}
+                alt={cert.title}
+                className="max-h-full max-w-full object-contain p-4"
               />
-              <div className="absolute inset-0 bg-black/30" />
             </div>
 
-            {/* CONTENT */}
-            <div className="p-6">
+            {/* Content */}
+            <div className="p-5 space-y-4">
+              {/* Company + Logo */}
               <div className="flex items-center gap-3">
                 <img
-                  src={item.logo}
-                  alt="logo"
-                  className="w-10 h-10 rounded-full bg-white p-1"
+                  src={cert.companyLogo}
+                  alt={cert.company}
+                  className="w-10 h-10 object-contain bg-white rounded-full p-1"
                 />
                 <div>
-                  <h3 className="text-lg font-semibold text-white leading-tight">
-                    {item.title}
-                  </h3>
-                  <p className="text-cyan-400 text-sm">{item.org}</p>
+                  <h3 className="text-lg font-semibold">{cert.title}</h3>
+                  <p className="text-sm opacity-70">
+                    {cert.company} • {cert.date}
+                  </p>
                 </div>
               </div>
 
-              <p className="mt-4 text-gray-300 text-sm sm:text-base leading-relaxed">
-                {item.description}
+              {/* Description */}
+              <p className="text-sm leading-relaxed opacity-90">
+                {cert.description}
               </p>
 
-              {/* TAGS */}
-              <div className="flex flex-wrap gap-2 mt-5">
-                {item.tags.map((tag, index) => (
+              {/* Tags */}
+              <div className="flex flex-wrap gap-2 pt-2">
+                {cert.tags.map((tag, index) => (
                   <span
                     key={index}
-                    className="text-xs sm:text-sm px-3 py-1 rounded-full
-                               bg-cyan-500/20 text-cyan-300"
+                    className="text-xs px-3 py-1 rounded-full border border-[#E2EDF7]/20"
                   >
                     {tag}
                   </span>
                 ))}
               </div>
             </div>
-
-            {/* GLOW LINE */}
-            <div className="h-[2px] bg-gradient-to-r from-cyan-400 to-blue-500" />
           </div>
         ))}
       </div>
