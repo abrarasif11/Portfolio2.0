@@ -50,9 +50,53 @@ const AppShowcase = () => {
         <div className="showcaselayout">
           <div ref={rydeRef} className="first-project-wrapper">
             <div className="image-wrapper">
-              <img src="/images/mockuper.png" alt="Ryde App Interface" />
+              <img src="/images/project1.png" />
             </div>
             <div className="text-content">
+              <h2>Dentiva – AI Voice Dental Assistant</h2>
+              <p className="text-white-50 md:text-xl">
+                Dentiva is a full-stack dental platform that combines AI-powered
+                voice assistance with smart appointment management. Users can
+                get instant answers to dental questions, book appointments and
+                receive personalized care recommendations 24/7. The system
+                features secure authentication, subscription billing and an AI
+                voice agent that automates patient interactions. Designed for
+                clinics, it streamlines scheduling, administrative management
+                and overall workflow through a modern, scalable architecture.
+              </p>
+
+              {/* GitHub Button with Icon */}
+              <a
+                href="https://github.com/abrarasif11/Dentiva"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-4 inline-flex items-center gap-2 bg-gray-800 text-white px-5 py-2 rounded-lg hover:bg-gray-700 transition"
+              >
+                <FaGithub size={20} />
+                View on GitHub
+              </a>
+
+              {/* Live Demo Button */}
+              <a
+                href="https://dentivaa.vercel.app/" // replace with your live site URL
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 ml-2 bg-[#DAECFE] text-black px-5 py-2 rounded-lg hover:bg-[#2D2D37] hover:text-[#DAECFE] transition"
+              >
+                <FaExternalLinkAlt size={18} />
+                Live Demo
+              </a>
+            </div>
+          </div>
+
+          <div className="project-list-wrapper overflow-hidden">
+            <div className="project" ref={libraryRef}>
+              <div className="image-wrapper bg-[black]">
+                <img
+                  src="/images/potheGo.png"
+                  alt="Library Management Platform"
+                />
+              </div>
               <h2>PotheGo – AI Driven Smart Parcel Management System</h2>
               <p className="text-white-50 md:text-xl">
                 PotheGo is an intelligent parcel booking, tracking and delivery
@@ -61,7 +105,6 @@ const AppShowcase = () => {
                 real-time tracking, and predictive delivery time estimation,
                 PotheGo ensures safe, fast and reliable parcel delivery.
               </p>
-
               {/* GitHub Button with Icon */}
               <a
                 href="https://github.com/abrarasif11/PotheGo---Client-Site"
@@ -75,7 +118,7 @@ const AppShowcase = () => {
 
               {/* Live Demo Button */}
               <a
-                href="https://pothego-fe657.web.app/" // replace with your live site URL
+                href="https://pothego-fe657.web.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 ml-2 bg-[#DAECFE] text-black px-5 py-2 rounded-lg hover:bg-[#2D2D37] hover:text-[#DAECFE] transition"
@@ -84,14 +127,12 @@ const AppShowcase = () => {
                 Live Demo
               </a>
             </div>
-          </div>
 
-          <div className="project-list-wrapper overflow-hidden">
-            <div className="project" ref={libraryRef}>
-              <div className="image-wrapper bg-[#FFEFDB]">
+            <div className="project" ref={ycDirectoryRef}>
+              <div className="image-wrapper bg-[rgb(208,209,197)]">
                 <img
                   src="/images/Screenshot 2026-01-30 170212.png"
-                  alt="Library Management Platform"
+                  alt="YC Directory App"
                 />
               </div>
               <h2>
@@ -118,42 +159,6 @@ const AppShowcase = () => {
               {/* Live Demo Button */}
               <a
                 href="https://budgetbudddy.vercel.app/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 ml-2 bg-[#DAECFE] text-black px-5 py-2 rounded-lg hover:bg-[#2D2D37] hover:text-[#DAECFE] transition"
-              >
-                <FaExternalLinkAlt size={18} />
-                Live Demo
-              </a>
-            </div>
-
-            <div className="project" ref={ycDirectoryRef}>
-              <div className="image-wrapper bg-[#FFE7EB]">
-                <img
-                  src="/images/Screenshot 2026-01-30 170446.png"
-                  alt="YC Directory App"
-                />
-              </div>
-              <h2>Cine Fix - A Online Movie and TV Shows Website</h2>
-              <p className="text-white-50 md:text-xl">
-                An online movie and TV shows website that allows users to
-                browse, search and discover movies and series with detailed
-                information, ratings and an intuitive, user-friendly interface.
-              </p>
-              {/* GitHub Button with Icon */}
-              <a
-                href="https://github.com/abrarasif11/cinefix"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mt-4 inline-flex items-center gap-2 bg-gray-800 text-white px-5 py-2 rounded-lg hover:bg-gray-700 transition"
-              >
-                <FaGithub size={20} />
-                View on GitHub
-              </a>
-
-              {/* Live Demo Button */}
-              <a
-                href="https://cinefixx.netlify.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 ml-2 bg-[#DAECFE] text-black px-5 py-2 rounded-lg hover:bg-[#2D2D37] hover:text-[#DAECFE] transition"
