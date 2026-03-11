@@ -1,57 +1,78 @@
-<h1 align="center">
-  Hi 👋, I'm Fahim Abrar Asif
-</h1>
+<h1 align="center">🚀 Fahim Abrar Asif</h1>
 
 <h3 align="center">
-  🚀 Full Stack Developer | React • Next.js • Node.js
+Full Stack Developer | React • Next.js • Node.js
 </h3>
 
 <p align="center">
-  <a href="https://fahim-abrar-asif.vercel.app/">
-    <img src="https://img.shields.io/badge/🌐 Live Portfolio-Visit Website-blue?style=for-the-badge">
-  </a>
+<a href="https://fahim-abrar-asif.vercel.app/">
+<img src="https://img.shields.io/badge/🌐 Live Portfolio-Visit Website-0A66C2?style=for-the-badge&logo=vercel&logoColor=white"/>
+</a>
 </p>
 
 ---
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?lines=Full+Stack+Web+Developer;React+%7C+Next.js+%7C+Node.js+Developer;Building+Modern+Web+Experiences;Always+Learning+New+Technologies&center=true&width=500&height=50">
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=28&duration=3000&color=36BCF7&center=true&vCenter=true&width=700&lines=Interactive+3D+Portfolio+Developer;Full+Stack+Web+Engineer;React+•+Next.js+•+Node.js+Developer;Building+Modern+Web+Experiences;Always+Learning+New+Technologies"/>
+
 </p>
 
 ---
 
-# 🌐 Interactive 3D Portfolio
+<p align="center">
 
-This repository contains the source code of my **Interactive 3D Developer Portfolio Website**.
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=3D%20Portfolio%20Project&fontSize=40&fontColor=ffffff&animation=fadeIn"/>
 
-The portfolio highlights my **projects, technical expertise, certifications, and development experience** in modern web technologies. It includes immersive **3D animations, smooth interactions, and responsive design** to create an engaging experience for visitors.
+</p>
 
-🔗 **Live Website**  
+---
+
+# 🌌 Interactive 3D Portfolio
+
+This repository contains the source code for my **Interactive 3D Developer Portfolio Website**.
+
+The portfolio showcases my **projects, technical skills, certifications, and experience** using modern web technologies with immersive **3D graphics and smooth animations**.
+
+🔗 **Live Portfolio**
+
 👉 https://fahim-abrar-asif.vercel.app/
+
+---
+
+# 🎥 Portfolio Preview
+
+<p align="center">
+
+<img src="https://user-images.githubusercontent.com/placeholder/portfolio-preview.gif" width="900"/>
+
+</p>
 
 ---
 
 # ✨ Features
 
-🚀 Interactive **3D models and animations**
+🚀 Interactive **3D models**
 
-🎥 Smooth **GSAP scroll animations**
+🎥 **GSAP powered animations**
 
-💡 Realistic **lighting and camera transitions**
+🧭 Smooth **camera transitions**
 
-📱 Fully **responsive design**
+🌌 Realistic **lighting & shadows**
+
+📱 Fully **responsive layout**
 
 ⚡ Fast build with **Vite**
 
-🎯 Clean and scalable **component architecture**
+🧩 Modular **component architecture**
 
-📂 Dedicated sections for:
+📂 Dedicated sections
 
 - About Me
 - Technical Skills
 - Projects Showcase
 - Certifications
-- Contact Information
+- Contact
 
 ---
 
@@ -59,49 +80,29 @@ The portfolio highlights my **projects, technical expertise, certifications, and
 
 ### Frontend
 
-<p align="left">
-<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,vite,js,ts"/>
+<p align="center">
+
+<img src="https://skillicons.dev/icons?i=react,tailwind,vite,js"/>
+
 </p>
 
-### 3D & Animation
+---
 
-<p align="left">
+### 3D Graphics
+
+<p align="center">
+
 <img src="https://skillicons.dev/icons?i=threejs"/>
+
 </p>
+
+---
 
 ### Libraries & Tools
 
-- Three.js
-- React Three Fiber
-- Drei
-- GSAP
-
----
-
-# 🏆 Certifications
-
-Here are some certifications highlighted in my portfolio:
-
-- Frontend Development Certification
-- JavaScript Development Certification
-- React Development Certification
-
-_(Replace these with your actual certifications.)_
-
----
-
-# 📸 Portfolio Preview
-
-<p align="center">
-<img src="https://via.placeholder.com/1000x500.png?text=Portfolio+Preview" width="800"/>
-</p>
-
----
-
-# 🚀 Getting Started
-
-Clone the repository
-
-```bash
-git clone https://github.com/yourusername/portfolio.git
-```
+| Technology        | Purpose                      |
+| ----------------- | ---------------------------- |
+| Three.js          | 3D rendering                 |
+| React Three Fiber | React renderer for Three.js  |
+| Drei              | Useful helpers for 3D scenes |
+| GSAP              | Advanced animations          |
