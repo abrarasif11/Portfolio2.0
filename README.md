@@ -1,4 +1,4 @@
-<h1 align="center">🚀 Fahim Abrar Asif</h1>
+<h1 align="center">Md Fahim Abrar Asif</h1>
 
 <h3 align="center">
 Full Stack Developer | React • Next.js • Node.js
@@ -22,7 +22,7 @@ Full Stack Developer | React • Next.js • Node.js
 
 <p align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=3D%20Portfolio%20Project&fontSize=40&fontColor=ffffff&animation=fadeIn"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=3D%20Portfolio%20&fontSize=40&fontColor=ffffff&animation=fadeIn"/>
 
 </p>
 
@@ -32,21 +32,11 @@ Full Stack Developer | React • Next.js • Node.js
 
 This repository contains the source code for my **Interactive 3D Developer Portfolio Website**.
 
-The portfolio showcases my **projects, technical skills, certifications, and experience** using modern web technologies with immersive **3D graphics and smooth animations**.
+The portfolio showcases my **projects, technical skills, certifications and experience** using modern web technologies with immersive **3D graphics and smooth animations**.
 
 🔗 **Live Portfolio**
 
 👉 https://fahim-abrar-asif.vercel.app/
-
----
-
-# 🎥 Portfolio Preview
-
-<p align="center">
-
-<img src="https://user-images.githubusercontent.com/placeholder/portfolio-preview.gif" width="900"/>
-
-</p>
 
 ---
 
