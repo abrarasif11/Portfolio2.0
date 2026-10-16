@@ -152,12 +152,26 @@ const techStackIcons = [
 const expCards = [
   {
     review:
+      "Asif consistently provides effective support to vendors, manages onboarding and go-live activities and proactively works to improve vendor performance. He maintains regular communication with vendors, addresses operational challenges and continuously strives to achieve business targets and improve service quality.",
+    imgPath: "/images/foodpanda.png",
+    companyName: "FoodPanda",
+    logoPath: "/images/foodpanda.png",
+    title: "Associate, Incubation & Experience",
+    date: "August 2023 - Present",
+    responsibilities: [
+      "Managed vendor onboarding, go-live activation and follow-ups to improve vendor performance.",
+      "Monitored vendor performance and guided vendors to improve order generation, availability and Ads & Deals activation.",
+      "Coordinated with vendors and relevant teams to resolve operational issues and ensure timely follow-ups.",
+    ],
+  },
+  {
+    review:
       "Asif consistently follows standard operating procedures (SOPs) while providing services to vendors and continuously works to improve his performance on a daily basis.",
     imgPath: "/images/foodpanda.png",
     companyName: "FoodPanda",
     logoPath: "/images/foodpanda.png",
     title: "Partner Service Agent",
-    date: "November 2023 - Present",
+    date: "November 2023 - June 2026",
     responsibilities: [
       "Resolved vendor queries by providing solutions according to SOP.",
       "Handled and closed cases involving vendors.",
