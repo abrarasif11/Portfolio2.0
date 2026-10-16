@@ -41,6 +41,38 @@ const certifications = [
       "Learn Node.js from scratch with SkillUp! Build scalable backend applications, work with databases, REST APIs and real world projects. Perfect for aspiring backend and full-stack developers.",
     tags: ["#NodeJS", "#SkillUp", "#BackendDevelopment", "#LearnToCode"],
   },
+  {
+    id: 4,
+    title: "Champions at MEPL – Marketplace Experience Premium League",
+    company: "Foodpanda",
+    date: "February 2026",
+    certificateImg: "/images/1770425814967.jpg",
+    companyLogo: "/images/foodpanda.png",
+    description:
+      "Celebrated the championship victory at the MEPL cricket tournament, organized with Foodpanda's Marketplace Operations team and powered by pandamart. Demonstrated teamwork, collaboration, sportsmanship and a competitive spirit while building stronger connections beyond the workplace.",
+    tags: [
+      "Achievement",
+      "Sportsmanship",
+      "Marketplace Operations",
+      "Operational Excellence",
+    ],
+  },
+  {
+    id: 4,
+    title: "Microsoft Word Essential Training (Microsoft 365) – 2023",
+    company: "Microsoft",
+    date: "June 2026",
+    certificateImg: "/images/1782056793745.jpg",
+    companyLogo: "/images/images.jpg",
+    description:
+      "Successfully completed Microsoft Word Essential Training (Microsoft 365), instructed by Shea Hanson. Developed skills in document formatting, core Microsoft Word features, collaboration tools and productivity best practices for creating professional documents efficiently.",
+    tags: [
+      "Microsoft Word",
+      "Microsoft 365",
+      "Document Formatting",
+      "Document Management",
+    ],
+  },
 ];
 
 const Certifications = () => {
